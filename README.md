@@ -10,6 +10,7 @@
 ## Küresel Isınma Hakkında Daha Fazla Bilgi İçin;
 Küresel ısınma hakkında bir BM makalesi:
 > - https://www.un.org/tr/un75/climate-crisis-race-we-can-win
+
 Küresel ısınmanın nedenleri ve etkilerine ilişkin bir BM makalesi:
 > - https://www.un.org/tr/climatechange/science/causes-effects-climate-change
 
