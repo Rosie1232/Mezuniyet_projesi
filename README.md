@@ -1,6 +1,7 @@
 # Usipi
 - Usipi; hem eğlendiren, hem öğreten eğlenceli ve siz sıkıldıkça size çok iyi bir yandaş olabilecek bir bottur. Temel amacı olarak ise hem oyunlarla insanları bilinçlendirebilmek ve yol gösterebilmek, hem de insanların boş vakitlerinde vakit geçirebilecekleri bir eğlence aracı olabilmektir. Ayrıca eğer siz kullanıcıların da Usipi'yi daha iyi ve/veya eğlenceli bir bot yapmak için fikirlerinin bizim için çok değerli olduğunu bilmenizi ister istediğiniz zaman önerilerinizi 'acelya.1' Discord hesabına yazabilirsiniz.   
 
+![image](https://github.com/Rosie1232/Mezuniyet_projesi/assets/142110839/64afc059-349f-438e-8a5b-14af14a2f0a4)
 
 
 ## Önemli
