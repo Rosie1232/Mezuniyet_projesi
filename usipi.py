@@ -175,4 +175,4 @@ async def upload_image(ctx):
     else:
       await ctx.send("Dosya yüklemedin!")
 
-bot.run("MTE0NDMwMTU5MTI5MDE4Nzk0OA.GO6L3N.Fv_zsWE4YzNbxY1y2wvAsbDPB_JGLFjzZYjhQ0")
+bot.run("token")
