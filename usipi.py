@@ -92,12 +92,19 @@ async def oyun(ctx):
     await ctx.send('?')
     @bot.command()
     async def cevap(ctx,secenek):
-        if secenek == 1:
+        if int(secenek) == 1:
             await ctx.send('Dünyada her yıl "10 milyar dolarlık" e-atık TEK BAŞINA geri dönüşüm yerine çöpe gidiyor. Yani bu demek oluyor ki başka geri dönüşüm yerine çöpe atılan atıkları da buna eklersek çok yüksek rakamlarda ham madde vs. her yıl israf ediliyor ve ham madde ihtiyacının karşılanması için çalışan makinelerde daha fazla fosil yakıt, daha fazla enerji, daha fazla atık doğaya salınıyor. Eh, hepimizin bildiği gibi bunlar da biricik Dünyamızın atmosferinin günden güne zarar görmesine yol açıyor. O israf olan milyarlarca doları Dünyamızın atmosferinin iyiliği için kullanırsak eminim ki şuan çok daha iyi bir yerde oluruz. Evet belki de Dünyamıza yatırım yapmak yerine yeni bir gezegen bulma ümüdinde olabilirsin. O zaman da o kadar büyük bir parayı uzay araştırmaları için kullanmalırını istemez miydin? Lütfen bunun üzerine bir düşün çünkü bu anlattığım her şey senin geri dönüştürülebilinir bir maddeyi geri dönüştürmen ya da onun yerine belki de daha kolay diye çöpe atmana göre şekilleniyor. ;)')
-             
+            time.sleep(5)
+        if int(secenek) == 2:
+            await ctx.send('Dünyada her yıl "10 milyar dolarlık" e-atık TEK BAŞINA geri dönüşüm yerine çöpe gidiyor. Yani bu demek oluyor ki başka geri dönüşüm yerine çöpe atılan atıkları da buna eklersek çok yüksek rakamlarda ham madde vs. her yıl israf ediliyor ve ham madde ihtiyacının karşılanması için çalışan makinelerde daha fazla fosil yakıt, daha fazla enerji, daha fazla atık doğaya salınıyor. Eh, hepimizin bildiği gibi bunlar da biricik Dünyamızın atmosferinin günden güne zarar görmesine yol açıyor. O israf olan milyarlarca doları Dünyamızın atmosferinin iyiliği için kullanırsak eminim ki şuan çok daha iyi bir yerde oluruz. Evet belki de Dünyamıza yatırım yapmak yerine yeni bir gezegen bulma ümüdinde olabilirsin. O zaman da o kadar büyük bir parayı uzay araştırmaları için kullanmalırını istemez miydin? Lütfen bunun üzerine bir düşün çünkü bu anlattığım her şey senin geri dönüştürülebilinir bir maddeyi geri dönüştürmen ya da onun yerine belki de daha kolay diye çöpe atmana göre şekilleniyor. ;)')
+            time.sleep(5)
+        if int(secenek) == 3:
+            await ctx.send('Dünyada her yıl "10 milyar dolarlık" e-atık TEK BAŞINA geri dönüşüm yerine çöpe gidiyor. Yani bu demek oluyor ki başka geri dönüşüm yerine çöpe atılan atıkları da buna eklersek çok yüksek rakamlarda ham madde vs. her yıl israf ediliyor ve ham madde ihtiyacının karşılanması için çalışan makinelerde daha fazla fosil yakıt, daha fazla enerji, daha fazla atık doğaya salınıyor. İşte bu yüzden snin geri dönüştürmeye önem vermen okadar değerli ki, eğer herkes senin gibi önem verseydi milyarlarca dolar tasarrufumuz olurdu şuan. ;)')
+            time.sleep(4)
 
 
-bot.command()
+
+@bot.command()
 async def nasilsin(ctx):
     emojiler = ["\U0001f62D", "\U0001f601", "\U0001f610", '\U0001f622', "\U0001f922", "\U0001f621", "\U0001f60C", "\U0001f62A", "\U0001fAE5", "\U0001f92A", "\U0001F973"]
     durum = random.choices(emojiler)
